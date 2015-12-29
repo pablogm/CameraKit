@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "CameraKit"
+  s.name             = "PGMCameraKit"
   s.version          = "0.1.0"
   s.summary          = "Camera library to record video (inc pause and resume features), compress video and fully customize the camera."
   s.description      = <<-DESC

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CameraKit.xcodeproj">
+      location = "group:/Users/pablogm/Documents/Developer/Repositories/Projects/CameraKit/Example/PGMCameraKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

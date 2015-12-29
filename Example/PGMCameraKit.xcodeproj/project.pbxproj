@@ -21,7 +21,7 @@
 		46F6FDDD76784DE400706470 /* Pods-CameraKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraKit_Tests/Pods-CameraKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4CB72BC935C98E5DA86C47EB /* Pods-CameraKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraKit_Tests/Pods-CameraKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B6B5D168DF3622923976AE0 /* Pods_CameraKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* CameraKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* PGMCameraKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGMCameraKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		B2B172B3C4B551E85D8FA25B /* CameraKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CameraKit.podspec; path = ../CameraKit.podspec; sourceTree = "<group>"; };
+		B2B172B3C4B551E85D8FA25B /* PGMCameraKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PGMCameraKit.podspec; path = ../PGMCameraKit.podspec; sourceTree = "<group>"; };
 		D48EF59EAD2D9CAC5D32E7CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DF91C5DEB8D3BB5E17735055 /* Pods-CameraKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraKit_Example/Pods-CameraKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F109B4B6714F5E249FB3D332 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* CameraKit_Example.app */,
+				607FACD01AFB9204008FA782 /* PGMCameraKit_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B2B172B3C4B551E85D8FA25B /* CameraKit.podspec */,
+				B2B172B3C4B551E85D8FA25B /* PGMCameraKit.podspec */,
 				D48EF59EAD2D9CAC5D32E7CB /* README.md */,
 				F109B4B6714F5E249FB3D332 /* LICENSE */,
 			);
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* CameraKit_Example */ = {
+		607FACCF1AFB9204008FA782 /* PGMCameraKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CameraKit_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PGMCameraKit_Example" */;
 			buildPhases = (
 				0F6E8E78818B98253035301F /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -155,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = CameraKit_Example;
+			name = PGMCameraKit_Example;
 			productName = CameraKit;
-			productReference = 607FACD01AFB9204008FA782 /* CameraKit_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* PGMCameraKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CameraKit" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PGMCameraKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* CameraKit_Example */,
+				607FACCF1AFB9204008FA782 /* PGMCameraKit_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -377,7 +377,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pgm.camerakit.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PGMCameraKit_Example;
 			};
 			name = Debug;
 		};
@@ -390,14 +390,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pgm.camerakit.demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PGMCameraKit_Example;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CameraKit" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PGMCameraKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -406,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CameraKit_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PGMCameraKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

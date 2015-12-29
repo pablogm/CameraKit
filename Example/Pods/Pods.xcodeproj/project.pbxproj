@@ -12,11 +12,11 @@
 		4819E0EA2F64BF20BE5434A9B4FCB5E3 /* CameraKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A35E8D769E232A2E80E5983756B0F42 /* CameraKit.bundle */; };
 		4BF596800CB4590FD5F796FA8B763D9F /* PGMTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC93FC061A0B411331DB33B9DBDD1862 /* PGMTimer.framework */; };
 		5E2151B8D4562E7A610114011377449B /* CameraKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61A978E50654563E3271BECB002D0 /* CameraKit-dummy.m */; };
-		6155D64F1C3310E4001A9525 /* CameraKit+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6451C3310E4001A9525 /* CameraKit+Orientation.swift */; };
-		6155D6501C3310E4001A9525 /* CameraKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6461C3310E4001A9525 /* CameraKit.swift */; };
-		6155D6511C3310E4001A9525 /* CameraKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6471C3310E4001A9525 /* CameraKitHelper.swift */; };
-		6155D6521C3310E4001A9525 /* CameraKitProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6481C3310E4001A9525 /* CameraKitProperties.swift */; };
-		6155D6531C3310E4001A9525 /* CameraKitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6491C3310E4001A9525 /* CameraKitWriter.swift */; };
+		6155D64F1C3310E4001A9525 /* PGMCameraKit+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6451C3310E4001A9525 /* PGMCameraKit+Orientation.swift */; };
+		6155D6501C3310E4001A9525 /* PGMCameraKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6461C3310E4001A9525 /* PGMCameraKit.swift */; };
+		6155D6511C3310E4001A9525 /* PGMCameraKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6471C3310E4001A9525 /* PGMCameraKitHelper.swift */; };
+		6155D6521C3310E4001A9525 /* PGMCameraKitProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6481C3310E4001A9525 /* PGMCameraKitProperties.swift */; };
+		6155D6531C3310E4001A9525 /* PGMCameraKitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6491C3310E4001A9525 /* PGMCameraKitWriter.swift */; };
 		6155D6541C3310E4001A9525 /* NSError+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D64B1C3310E4001A9525 /* NSError+Utils.swift */; };
 		6155D6551C3310E4001A9525 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D64C1C3310E4001A9525 /* UIViewController+Utils.swift */; };
 		6155D6561C3310E4001A9525 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D64E1C3310E4001A9525 /* FileManager.swift */; };
@@ -84,11 +84,11 @@
 		4D9DCDAA7331898C36973903884723D3 /* CameraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CameraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AEEFAA92E32E1F77C2686268F97771 /* Pods-CameraKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5EAA860F87C01817A91A2BAB76C1D614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6155D6451C3310E4001A9525 /* CameraKit+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraKit+Orientation.swift"; sourceTree = "<group>"; };
-		6155D6461C3310E4001A9525 /* CameraKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraKit.swift; sourceTree = "<group>"; };
-		6155D6471C3310E4001A9525 /* CameraKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraKitHelper.swift; sourceTree = "<group>"; };
-		6155D6481C3310E4001A9525 /* CameraKitProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraKitProperties.swift; sourceTree = "<group>"; };
-		6155D6491C3310E4001A9525 /* CameraKitWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraKitWriter.swift; sourceTree = "<group>"; };
+		6155D6451C3310E4001A9525 /* PGMCameraKit+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PGMCameraKit+Orientation.swift"; sourceTree = "<group>"; };
+		6155D6461C3310E4001A9525 /* PGMCameraKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKit.swift; sourceTree = "<group>"; };
+		6155D6471C3310E4001A9525 /* PGMCameraKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKitHelper.swift; sourceTree = "<group>"; };
+		6155D6481C3310E4001A9525 /* PGMCameraKitProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKitProperties.swift; sourceTree = "<group>"; };
+		6155D6491C3310E4001A9525 /* PGMCameraKitWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKitWriter.swift; sourceTree = "<group>"; };
 		6155D64B1C3310E4001A9525 /* NSError+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Utils.swift"; sourceTree = "<group>"; };
 		6155D64C1C3310E4001A9525 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		6155D64E1C3310E4001A9525 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
@@ -179,11 +179,11 @@
 		6155D6441C3310E4001A9525 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				6155D6451C3310E4001A9525 /* CameraKit+Orientation.swift */,
-				6155D6461C3310E4001A9525 /* CameraKit.swift */,
-				6155D6471C3310E4001A9525 /* CameraKitHelper.swift */,
-				6155D6481C3310E4001A9525 /* CameraKitProperties.swift */,
-				6155D6491C3310E4001A9525 /* CameraKitWriter.swift */,
+				6155D6451C3310E4001A9525 /* PGMCameraKit+Orientation.swift */,
+				6155D6461C3310E4001A9525 /* PGMCameraKit.swift */,
+				6155D6471C3310E4001A9525 /* PGMCameraKitHelper.swift */,
+				6155D6481C3310E4001A9525 /* PGMCameraKitProperties.swift */,
+				6155D6491C3310E4001A9525 /* PGMCameraKitWriter.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -528,13 +528,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2151B8D4562E7A610114011377449B /* CameraKit-dummy.m in Sources */,
-				6155D6511C3310E4001A9525 /* CameraKitHelper.swift in Sources */,
+				6155D6511C3310E4001A9525 /* PGMCameraKitHelper.swift in Sources */,
 				6155D6541C3310E4001A9525 /* NSError+Utils.swift in Sources */,
 				6155D6561C3310E4001A9525 /* FileManager.swift in Sources */,
-				6155D6521C3310E4001A9525 /* CameraKitProperties.swift in Sources */,
-				6155D6501C3310E4001A9525 /* CameraKit.swift in Sources */,
-				6155D64F1C3310E4001A9525 /* CameraKit+Orientation.swift in Sources */,
-				6155D6531C3310E4001A9525 /* CameraKitWriter.swift in Sources */,
+				6155D6521C3310E4001A9525 /* PGMCameraKitProperties.swift in Sources */,
+				6155D6501C3310E4001A9525 /* PGMCameraKit.swift in Sources */,
+				6155D64F1C3310E4001A9525 /* PGMCameraKit+Orientation.swift in Sources */,
+				6155D6531C3310E4001A9525 /* PGMCameraKitWriter.swift in Sources */,
 				6155D6551C3310E4001A9525 /* UIViewController+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
