@@ -10,6 +10,7 @@ Swift library to provide all the configurations you need to create a camera view
 
 * Start / pause / resume / stop recording
 * Video compression 
+* Save / Fetch videos & images from the media library
 * Max video duration threshold
 * Follows camera orientation change
 * Front and back camera
@@ -43,6 +44,155 @@ github "pablogm/CameraKit"
 ```
 
 ## How to use
+
+Init Camera Kit:
+
+```
+let cameraManager       = PGMCameraKit()
+```
+
+Init Camera Kit Helper (utils functions to save images/videos, retrieve images/videos from media library and compress video output)
+
+```
+let helper              = PGMCameraKitHelper()
+```
+
+Ask user permissions for camera permissions:
+
+```
+cameraManager.askUserForCameraPermissions({ [unowned self] permissionGranted in
+
+    if permissionGranted {
+        self.addCameraToView()
+    }
+    else {
+        self.addCameraAccessDeniedPopup("Go to settings and grant acces to the camera device to use it.")
+    }
+})
+
+```
+
+Set video time limit.
+
+```
+cameraManager.maxRecordedDuration = 4.0 // secs
+```
+
+Listeners:
+
+```
+// Errors
+cameraManager.addCameraErrorListener( { error in
+
+
+})
+
+// Time progress
+cameraManager.addCameraTimeListener( { time in
+
+    print("Time elapsed: \(time) seg")
+})
+
+// Video time limit
+
+cameraManager.addMaxAllowedLengthListener({ [unowned self] (videoURL, error, localIdentifier) -> () in
+
+    if let err = error {
+        print("Error \(err)")
+    }
+    else {
+
+        if let url = videoURL {
+
+            print("Saved video from local url \(url) with uuid \(localIdentifier)")
+
+            let data = NSData(contentsOfURL: url)!
+
+            print("Byte Size Before Compression: \(data.length / 1024) KB")
+
+        }
+    }
+})
+```
+
+Start recording video:
+
+```
+cameraManager.startRecordingVideo( {(error)->() in
+
+    if let err = error {
+        print("Error ocurred: \(err)")
+    }
+})
+```
+
+Pause recording:
+
+```
+cameraManager.pauseRecordingVideo()
+```
+
+Resume recording:
+
+```
+cameraManager.resumeRecordingVideo()
+```
+
+Stop recording:
+
+```
+cameraManager.stopRecordingVideo( { (videoURL, error, localIdentifier) -> () in
+
+    if let err = error {
+        print("Error ocurred: \(err)")
+    }
+    else {
+        print("Video url: \(videoURL) with unique id \(localIdentifier)")
+    }
+})
+```
+
+
+Video compression:
+
+```
+// The compress file extension will depend on the output file type
+self.helper.compressVideo(url, outputURL: self.cameraManager.tempCompressFilePath("mp4"), outputFileType: AVFileTypeMPEG4, handler: { session in
+
+    if let currSession = session {
+
+        print("Progress: \(currSession.progress)")
+
+        print("Save to \(currSession.outputURL)")
+
+        if currSession.status == .Completed {
+
+            if let data = NSData(contentsOfURL: currSession.outputURL!) {
+
+            print("File size after compression: \(data.length / 1024) KB")
+
+            // Play compressed video
+            dispatch_async(dispatch_get_main_queue(), {
+
+                let player  = AVPlayer(URL: currSession.outputURL!)
+                let layer   = AVPlayerLayer(player: player)
+                layer.frame = self.view.bounds
+                self.view.layer.addSublayer(layer)
+                player.play()
+
+                print("Playing video...")
+            })
+            }
+        }
+        else if currSession.status == .Failed
+        {
+            print(" There was a problem compressing the video maybe you can try again later. Error: \(currSession.error!.localizedDescription)")
+        }
+    }
+})
+```
+
+
 
 ## Support
 

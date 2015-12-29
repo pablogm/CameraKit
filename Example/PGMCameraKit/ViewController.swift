@@ -93,7 +93,7 @@ class ViewController: UIViewController {
                     self.addCameraAccessDeniedPopup(err.localizedFailureReason!)
                 }
             }
-            })
+        })
         
         cameraManager.addCameraTimeListener( { time in
             
@@ -156,7 +156,7 @@ class ViewController: UIViewController {
             self.cameraButton.selected = !(self.cameraButton.selected)
             self.cameraButton.setTitle(" ", forState: UIControlState.Selected)
             self.cameraButton.backgroundColor = self.cameraButton.selected ? UIColor.redColor() : UIColor.greenColor()
-            })
+        })
         
     }
     
