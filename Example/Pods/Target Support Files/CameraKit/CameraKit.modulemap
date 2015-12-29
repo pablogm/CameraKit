@@ -1,6 +1,0 @@
-framework module CameraKit {
-  umbrella header "CameraKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

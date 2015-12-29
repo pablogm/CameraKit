@@ -24,7 +24,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-extension CameraKit {
+extension PGMCameraKit {
 
     
     // MARK: Associated objects

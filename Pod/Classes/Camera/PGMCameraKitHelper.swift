@@ -30,7 +30,7 @@ public typealias ImageWithIdentifierBlock  = (image:UIImage?) -> ()
 public typealias VideoWithIdentifierBlock  = (video:NSURL?) -> ()
 public typealias FrameBuffer               = (inBuffer: vImage_Buffer, outBuffer: vImage_Buffer, pixelBuffer: UnsafeMutablePointer<Void>)
 
-@objc public class CameraKitHelper: NSObject {
+@objc public class PGMCameraKitHelper: NSObject {
 
     var manager = PHImageManager.defaultManager()
     

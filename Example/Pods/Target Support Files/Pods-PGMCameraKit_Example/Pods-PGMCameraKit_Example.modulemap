@@ -1,0 +1,6 @@
+framework module Pods_PGMCameraKit_Example {
+  umbrella header "Pods-PGMCameraKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

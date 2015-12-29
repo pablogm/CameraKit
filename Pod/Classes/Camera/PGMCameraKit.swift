@@ -37,7 +37,7 @@ public typealias SizeCompletionType  = Int64? -> ()
 public typealias TimeCompletionType  = String? -> ()
 public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?) -> ()
 
-@objc public class CameraKit: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate {
+@objc public class PGMCameraKit: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureAudioDataOutputSampleBufferDelegate {
     
     
     // MARK: Public properties
@@ -154,7 +154,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
     
     private var library: PHPhotoLibrary?
     
-    private var videoWriter : CameraKitWriter?
+    private var videoWriter : PGMCameraKitWriter?
     
     private let cameraKitErrorDomain = "cameraKitErrorDomain"
     
@@ -386,7 +386,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                             let imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sample)
                             
                             // Get a reference to our helper
-                            let helper = CameraKitHelper()
+                            let helper = PGMCameraKitHelper()
                             
                             // Save the image to library
                             if let imageToSave = UIImage(data: imageData) {
@@ -628,7 +628,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                     
                     print("setup video writer (with mic)")
                     
-                    self.videoWriter = CameraKitWriter(
+                    self.videoWriter = PGMCameraKitWriter(
                         fileUrl: self.filePathUrl(),
                         height: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? self.width! : self.height!,
                         width: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? self.height! : self.width!,
@@ -658,7 +658,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                     
                     print("setup video writer (only video)")
                     
-                    self.videoWriter = CameraKitWriter(
+                    self.videoWriter = PGMCameraKitWriter(
                         fileUrl: self.filePathUrl(),
                         height: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? self.width! : self.height!,
                         width: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? self.height! : self.width!
@@ -1083,7 +1083,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                 self.updateTorch(.Off)
                 
                 // Get a reference to our helper
-                let helper = CameraKitHelper()
+                let helper = PGMCameraKitHelper()
                 
                 // Save the image to library
                 helper.saveVideoAsAsset(url, completion: { (localIdentifier, error) -> () in

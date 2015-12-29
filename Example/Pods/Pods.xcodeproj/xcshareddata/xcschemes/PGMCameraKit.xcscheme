@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FEB56DA3A9406A22A853ABC78492FD6B"
-               BuildableName = "CameraKit.framework"
-               BlueprintName = "CameraKit"
+               BlueprintIdentifier = "16F6A7BE549C570FF0EC357C66E72226"
+               BuildableName = "PGMCameraKit.framework"
+               BlueprintName = "PGMCameraKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FEB56DA3A9406A22A853ABC78492FD6B"
-            BuildableName = "CameraKit.framework"
-            BlueprintName = "CameraKit"
+            BlueprintIdentifier = "16F6A7BE549C570FF0EC357C66E72226"
+            BuildableName = "PGMCameraKit.framework"
+            BlueprintName = "PGMCameraKit"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

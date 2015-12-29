@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "CameraKit_Tests.xctest"
-               BlueprintName = "CameraKit_Tests"
+               BuildableName = "PGMCameraKit_Tests.xctest"
+               BlueprintName = "PGMCameraKit_Tests"
                ReferencedContainer = "container:PGMCameraKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "CameraKit_Tests.xctest"
-               BlueprintName = "CameraKit_Tests"
+               BuildableName = "PGMCameraKit_Tests.xctest"
+               BlueprintName = "PGMCameraKit_Tests"
                ReferencedContainer = "container:PGMCameraKit.xcodeproj">
             </BuildableReference>
          </TestableReference>

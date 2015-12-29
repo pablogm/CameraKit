@@ -7,152 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B0093DA311C4105449C1AEB811539F2 /* Pods-CameraKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB58219822D61841BE9AEAA6F482287 /* Pods-CameraKit_Example-dummy.m */; };
-		4176914BEA442210265D9CC3F1126F30 /* CameraKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93956D8F45D5645072FC2CFE22064844 /* CameraKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4819E0EA2F64BF20BE5434A9B4FCB5E3 /* CameraKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A35E8D769E232A2E80E5983756B0F42 /* CameraKit.bundle */; };
-		4BF596800CB4590FD5F796FA8B763D9F /* PGMTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC93FC061A0B411331DB33B9DBDD1862 /* PGMTimer.framework */; };
-		5E2151B8D4562E7A610114011377449B /* CameraKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D61A978E50654563E3271BECB002D0 /* CameraKit-dummy.m */; };
-		6155D64F1C3310E4001A9525 /* PGMCameraKit+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6451C3310E4001A9525 /* PGMCameraKit+Orientation.swift */; };
-		6155D6501C3310E4001A9525 /* PGMCameraKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6461C3310E4001A9525 /* PGMCameraKit.swift */; };
-		6155D6511C3310E4001A9525 /* PGMCameraKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6471C3310E4001A9525 /* PGMCameraKitHelper.swift */; };
-		6155D6521C3310E4001A9525 /* PGMCameraKitProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6481C3310E4001A9525 /* PGMCameraKitProperties.swift */; };
-		6155D6531C3310E4001A9525 /* PGMCameraKitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D6491C3310E4001A9525 /* PGMCameraKitWriter.swift */; };
-		6155D6541C3310E4001A9525 /* NSError+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D64B1C3310E4001A9525 /* NSError+Utils.swift */; };
-		6155D6551C3310E4001A9525 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D64C1C3310E4001A9525 /* UIViewController+Utils.swift */; };
-		6155D6561C3310E4001A9525 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155D64E1C3310E4001A9525 /* FileManager.swift */; };
-		8201B8442F09ED299F6230E6554197B5 /* PGMTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9D5EB610F8A85BC3AF0FAF3FFAC6D /* PGMTimer.swift */; };
-		917ED0B752162D5132577C935B974B7C /* PGMTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0629DB090B8CE9C605C95225FC0DA7F7 /* PGMTimer.bundle */; };
-		AC30EF858CDFD29D5E966A6EC03B4B65 /* PGMTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6CC668AD87BDBF644C02D59A1687AF /* PGMTimer-dummy.m */; };
-		CBA94AC55D48FAF384A74D1DB398D4C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */; };
-		CFC921AF9B389C03283CC4FED44AE07F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */; };
-		F1813A2C3E5E2E4A374CDE3C01CCF817 /* PGMTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9AC23C61819D40E94142646F6FBAC9 /* PGMTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2770F543D1E17AED51701B2B76D63AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */; };
-		FFA6003F630CEDD3EC8839427ED8643B /* Pods-CameraKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CEF02D2B450DB02F31314ECFF62AE /* Pods-CameraKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09408113B7569980FAB2A927A184EEE1 /* PGMTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9AC23C61819D40E94142646F6FBAC9 /* PGMTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A72F82FE045B8C786E4A6A6BAE2757A /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE5B64DD2BDB22318FE6B7441327ABD /* UIViewController+Utils.swift */; };
+		0A8831488ECA8D0A6D978DEE48B7F57B /* PGMCameraKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F039C633526DCE59F73FEBF65EA686D /* PGMCameraKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19288D4E5BCD7CED34C2FECE6E74A73F /* PGMTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78BA2749895692B0336E57280FB89A35 /* PGMTimer.bundle */; };
+		1B28CB92D2D24DA370983CE0D8D3BAD6 /* PGMCameraKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84483DC5992E4C00887666EEC6312FAD /* PGMCameraKit.swift */; };
+		20351B99D6080A638561A71BA93C07D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */; };
+		47711D914507F106C185E439A2DDF5D5 /* PGMCameraKit+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89840E719951C88873DABC190CF738 /* PGMCameraKit+Orientation.swift */; };
+		668FF1E75118AAF202B4235D9DD6C94E /* CameraKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D50AAC77946916ED38479AC88CF99AB /* CameraKit.bundle */; };
+		81B79371E8AB6AFA59F2CA1E32B06F9F /* PGMCameraKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E56BC2BC543B71BADF011D31D63E477 /* PGMCameraKitHelper.swift */; };
+		8C0AD4375E30B35B4BC35F0452ECA5C0 /* PGMCameraKitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3BE0C7B9C9FA5269AA3438665A7D10 /* PGMCameraKitWriter.swift */; };
+		9A0C3AF031AD4A56C0AE674D2458EAF4 /* PGMCameraKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B97067321353943D24BE7328986E9 /* PGMCameraKit-dummy.m */; };
+		A08966BD07700B9ACAC64567AC2AC7DE /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458CF5CE973FFACC0183F988CEFDA93 /* FileManager.swift */; };
+		A3586C2B4B0FF390EAFC70DA9CA41983 /* PGMTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6CC668AD87BDBF644C02D59A1687AF /* PGMTimer-dummy.m */; };
+		AA1F43F7930983A9A517C157CE96999A /* Pods-PGMCameraKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B44352C745960940EA546AC4B4F87E /* Pods-PGMCameraKit_Example-dummy.m */; };
+		ADFDE5B3B12F3769E923AB4C8CF46F1B /* Pods-PGMCameraKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413AE602BE8407096EF9EE000549E68C /* Pods-PGMCameraKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E16C10AF110BF35EB30038E54BDF9A /* NSError+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1E4668E249839B1C22E135FDAA67B /* NSError+Utils.swift */; };
+		C87D4401435617CA089C8438F9464048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */; };
+		CF6314FCC551BD6F96832DAC1E3D8E98 /* PGMTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC93FC061A0B411331DB33B9DBDD1862 /* PGMTimer.framework */; };
+		DC73DF1D9155BEF2B1ED91A37D605A1E /* PGMTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9D5EB610F8A85BC3AF0FAF3FFAC6D /* PGMTimer.swift */; };
+		E564F061F13CA2D7C514B73B6518A1B2 /* PGMCameraKitProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10D6806376ED285483A1BBC76347500 /* PGMCameraKitProperties.swift */; };
+		FD6369C7B85FF1EDF41BAE70B438BC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00DA6005CB982F7680B0380783452F64 /* PBXContainerItemProxy */ = {
+		07E887E78A21A29CBCD1E845275CE578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD8F86B121902C37B550E5782C935B82;
+			remoteGlobalIDString = C7A7DDBBADD9C79906D44F7CF5CECCB9;
+			remoteInfo = "PGMCameraKit-CameraKit";
+		};
+		392A1549495AFD9063A7ED75C7290FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014FF9F53BB28B341BB64A2C50BF105E;
 			remoteInfo = PGMTimer;
 		};
-		61CFE1F2C2423B2A617D1D1D9BFB9F4E /* PBXContainerItemProxy */ = {
+		69E6919846A60C58FD4A80789093CB42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80C27DEAA44F16C6C9E8088E5A71A7A4;
-			remoteInfo = "CameraKit-CameraKit";
+			remoteGlobalIDString = 16F6A7BE549C570FF0EC357C66E72226;
+			remoteInfo = PGMCameraKit;
 		};
-		6DC68ED007C272AEFC719B78A3348E84 /* PBXContainerItemProxy */ = {
+		902F27833532173D2E8488391EF0C350 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEB56DA3A9406A22A853ABC78492FD6B;
-			remoteInfo = CameraKit;
+			remoteGlobalIDString = 014FF9F53BB28B341BB64A2C50BF105E;
+			remoteInfo = PGMTimer;
 		};
-		86FE959E656D1AA041325C0315C6D17E /* PBXContainerItemProxy */ = {
+		A93D9E8DEF003F03EA020E0B28712715 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14A4A09765939474B10C91296831AD0B;
+			remoteGlobalIDString = 61ADAA9C38266A8D3B4A18DF1B3D714A;
 			remoteInfo = "PGMTimer-PGMTimer";
-		};
-		9853CA4A8ACCF1C5338E1D84B05250CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD8F86B121902C37B550E5782C935B82;
-			remoteInfo = PGMTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0629DB090B8CE9C605C95225FC0DA7F7 /* PGMTimer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGMTimer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		105CEF02D2B450DB02F31314ECFF62AE /* Pods-CameraKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		02BD928211A200ECC52AFDD49F4520DB /* PGMCameraKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGMCameraKit-prefix.pch"; sourceTree = "<group>"; };
+		0E56BC2BC543B71BADF011D31D63E477 /* PGMCameraKitHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PGMCameraKitHelper.swift; sourceTree = "<group>"; };
+		0E6B97067321353943D24BE7328986E9 /* PGMCameraKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGMCameraKit-dummy.m"; sourceTree = "<group>"; };
+		0E89840E719951C88873DABC190CF738 /* PGMCameraKit+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PGMCameraKit+Orientation.swift"; sourceTree = "<group>"; };
 		16D9D5EB610F8A85BC3AF0FAF3FFAC6D /* PGMTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGMTimer.swift; path = Pod/Classes/PGMTimer.swift; sourceTree = "<group>"; };
 		177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGMTimer.xcconfig; sourceTree = "<group>"; };
-		192FF26CF7F3E3C1C2F981B890BE0679 /* Pods_CameraKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19B07FE0ED6FA33FD5E6F412BCADA911 /* Pods-CameraKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraKit_Example-resources.sh"; sourceTree = "<group>"; };
-		1AD37CB0C32CC3B3B748709D91ECAACD /* Pods-CameraKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E6CC668AD87BDBF644C02D59A1687AF /* PGMTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGMTimer-dummy.m"; sourceTree = "<group>"; };
-		25D7E80037D194B2664BFADECE0A7D93 /* CameraKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CameraKit.modulemap; sourceTree = "<group>"; };
-		451F502467F7AA2139FC604C5BE858F2 /* Pods-CameraKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		413AE602BE8407096EF9EE000549E68C /* Pods-PGMCameraKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGMCameraKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		46F8B78F9C71863C1EE0B62BCF905B30 /* PGMTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGMTimer-prefix.pch"; sourceTree = "<group>"; };
-		4C96E4CAE581DA983C4AA77CAB4B4B19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D9DCDAA7331898C36973903884723D3 /* CameraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CameraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AEEFAA92E32E1F77C2686268F97771 /* Pods-CameraKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5EAA860F87C01817A91A2BAB76C1D614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6155D6451C3310E4001A9525 /* PGMCameraKit+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PGMCameraKit+Orientation.swift"; sourceTree = "<group>"; };
-		6155D6461C3310E4001A9525 /* PGMCameraKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKit.swift; sourceTree = "<group>"; };
-		6155D6471C3310E4001A9525 /* PGMCameraKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKitHelper.swift; sourceTree = "<group>"; };
-		6155D6481C3310E4001A9525 /* PGMCameraKitProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKitProperties.swift; sourceTree = "<group>"; };
-		6155D6491C3310E4001A9525 /* PGMCameraKitWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGMCameraKitWriter.swift; sourceTree = "<group>"; };
-		6155D64B1C3310E4001A9525 /* NSError+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Utils.swift"; sourceTree = "<group>"; };
-		6155D64C1C3310E4001A9525 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
-		6155D64E1C3310E4001A9525 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		4C905FE4FF3384D2E9E476D394B7113E /* Pods-PGMCameraKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGMCameraKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D3788E944C2C0E29339863C952A9A4C /* Pods_PGMCameraKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGMCameraKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F80C6EEF00A2542FC2AEE9FF932272 /* PGMCameraKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PGMCameraKit.modulemap; sourceTree = "<group>"; };
+		5458CF5CE973FFACC0183F988CEFDA93 /* FileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		5D2C323AE54585673E002A6B3C383529 /* PGMCameraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGMCameraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F039C633526DCE59F73FEBF65EA686D /* PGMCameraKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGMCameraKit-umbrella.h"; sourceTree = "<group>"; };
+		68E1A3AA6B6FD718B7A19255E7141A9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BA2749895692B0336E57280FB89A35 /* PGMTimer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PGMTimer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		79726BC7FA83C1E29FC547B62B82BF18 /* PGMTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PGMTimer.modulemap; sourceTree = "<group>"; };
+		7A0CA1A43FF2745F2ACCF9EF8FFDC7F7 /* Pods-PGMCameraKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGMCameraKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D50AAC77946916ED38479AC88CF99AB /* CameraKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		821CA3DB8F6191A5FC57899519D80E6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		85D61A978E50654563E3271BECB002D0 /* CameraKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraKit-dummy.m"; sourceTree = "<group>"; };
-		8BB58219822D61841BE9AEAA6F482287 /* Pods-CameraKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraKit_Example-dummy.m"; sourceTree = "<group>"; };
-		93956D8F45D5645072FC2CFE22064844 /* CameraKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraKit-umbrella.h"; sourceTree = "<group>"; };
-		9A35E8D769E232A2E80E5983756B0F42 /* CameraKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AFBFC7537AF90C1BADDCEB2B442DDB /* Pods-PGMCameraKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGMCameraKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84483DC5992E4C00887666EEC6312FAD /* PGMCameraKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PGMCameraKit.swift; sourceTree = "<group>"; };
 		A1A778C3B1E2DE4660F3574155EA2F81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9AC23C61819D40E94142646F6FBAC9 /* PGMTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGMTimer-umbrella.h"; sourceTree = "<group>"; };
-		B0E7ED101C9B8EFC8691E0C20A4FAF55 /* Pods-CameraKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B47793A32651E06EFFF1EC964C086BDA /* CameraKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraKit-prefix.pch"; sourceTree = "<group>"; };
-		B4ED92A2882AEDDB1766CE0A794EE266 /* CameraKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraKit.xcconfig; sourceTree = "<group>"; };
+		B375DC1052548FC75440D6F0579EDD1C /* Pods-PGMCameraKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGMCameraKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B52E7EAFE2BFE05FA370EEB5E8586860 /* Pods-PGMCameraKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PGMCameraKit_Example.modulemap"; sourceTree = "<group>"; };
+		B5B1E4668E249839B1C22E135FDAA67B /* NSError+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSError+Utils.swift"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA887206DECE355EF835B5FBC0252F48 /* Pods-CameraKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C10D6806376ED285483A1BBC76347500 /* PGMCameraKitProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PGMCameraKitProperties.swift; sourceTree = "<group>"; };
+		CB7077C8F0C966391BAB0CE11C8C51F5 /* PGMCameraKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGMCameraKit.xcconfig; sourceTree = "<group>"; };
+		CBE5B64DD2BDB22318FE6B7441327ABD /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		CC93FC061A0B411331DB33B9DBDD1862 /* PGMTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGMTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA14D3F9F8F0B8496C8580BF4FB1233 /* Pods-CameraKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CameraKit_Example.modulemap"; sourceTree = "<group>"; };
-		DED92E1C949223383736F110D004F787 /* PGMTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGMTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9D90932294C62CA5A97AB77958897 /* Pods-PGMCameraKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGMCameraKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D35F9FAFEAEBFBE365D78C6A4FB72A0C /* Pods-PGMCameraKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGMCameraKit_Example-resources.sh"; sourceTree = "<group>"; };
+		DE3BE0C7B9C9FA5269AA3438665A7D10 /* PGMCameraKitWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PGMCameraKitWriter.swift; sourceTree = "<group>"; };
+		DEC6FAC37F7A9391F7B2420615D2C76D /* PGMTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGMTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B44352C745960940EA546AC4B4F87E /* Pods-PGMCameraKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGMCameraKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F421E6B21C112E8A0337145A5F44C34B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06B321283F18242BEAECC27579539F7B /* Frameworks */ = {
+		1697833BB3FF614362634246111D584B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2770F543D1E17AED51701B2B76D63AC /* Foundation.framework in Frameworks */,
+				20351B99D6080A638561A71BA93C07D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17FF882A04CD681400605324185622A7 /* Frameworks */ = {
+		42786E11D66036B4E80CC28BBE74B6EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		197D31992B275A9AA84169F7A2E28841 /* Frameworks */ = {
+		7927EBDC6F86ECD021B0A3D798BE0832 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA94AC55D48FAF384A74D1DB398D4C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BF886A1199443B2BFC36CA156123A1C /* Frameworks */ = {
+		7CBF82A1023DEC9F9C05CCB16D78F119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC921AF9B389C03283CC4FED44AE07F /* Foundation.framework in Frameworks */,
-				4BF596800CB4590FD5F796FA8B763D9F /* PGMTimer.framework in Frameworks */,
+				C87D4401435617CA089C8438F9464048 /* Foundation.framework in Frameworks */,
+				CF6314FCC551BD6F96832DAC1E3D8E98 /* PGMTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9A52EE3D7B453B3D5AEB5B16EAAD6DF /* Frameworks */ = {
+		B7C7769F4328869D874EB861720EF85F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6369C7B85FF1EDF41BAE70B438BC3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076D28980CCCE380AF02EBF0F5067DE4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3441DDF9F183AD41880020924A86D9FF /* Camera */,
+				A9372643E1CCE3E0AC0F11E9230494F8 /* Extensions */,
+				C0E08376E070751EE9C74374ACF3FE38 /* Managers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1908C7A2905D35B3741D7A39D800030E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E74E192B5424D126C49A012AA6F82C0 /* Pods-PGMCameraKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E74E192B5424D126C49A012AA6F82C0 /* Pods-PGMCameraKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F421E6B21C112E8A0337145A5F44C34B /* Info.plist */,
+				B52E7EAFE2BFE05FA370EEB5E8586860 /* Pods-PGMCameraKit_Example.modulemap */,
+				4C905FE4FF3384D2E9E476D394B7113E /* Pods-PGMCameraKit_Example-acknowledgements.markdown */,
+				B375DC1052548FC75440D6F0579EDD1C /* Pods-PGMCameraKit_Example-acknowledgements.plist */,
+				F0B44352C745960940EA546AC4B4F87E /* Pods-PGMCameraKit_Example-dummy.m */,
+				82AFBFC7537AF90C1BADDCEB2B442DDB /* Pods-PGMCameraKit_Example-frameworks.sh */,
+				D35F9FAFEAEBFBE365D78C6A4FB72A0C /* Pods-PGMCameraKit_Example-resources.sh */,
+				413AE602BE8407096EF9EE000549E68C /* Pods-PGMCameraKit_Example-umbrella.h */,
+				CCF9D90932294C62CA5A97AB77958897 /* Pods-PGMCameraKit_Example.debug.xcconfig */,
+				7A0CA1A43FF2745F2ACCF9EF8FFDC7F7 /* Pods-PGMCameraKit_Example.release.xcconfig */,
+			);
+			name = "Pods-PGMCameraKit_Example";
+			path = "Target Support Files/Pods-PGMCameraKit_Example";
+			sourceTree = "<group>";
+		};
 		218FD2DE8744861093A4319F8155E276 /* PGMTimer */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +196,18 @@
 				34A2304F261023CCC305F47E2B9F3A1A /* Support Files */,
 			);
 			path = PGMTimer;
+			sourceTree = "<group>";
+		};
+		3441DDF9F183AD41880020924A86D9FF /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				84483DC5992E4C00887666EEC6312FAD /* PGMCameraKit.swift */,
+				0E89840E719951C88873DABC190CF738 /* PGMCameraKit+Orientation.swift */,
+				0E56BC2BC543B71BADF011D31D63E477 /* PGMCameraKitHelper.swift */,
+				C10D6806376ED285483A1BBC76347500 /* PGMCameraKitProperties.swift */,
+				DE3BE0C7B9C9FA5269AA3438665A7D10 /* PGMCameraKitWriter.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		34A2304F261023CCC305F47E2B9F3A1A /* Support Files */ = {
@@ -176,33 +224,30 @@
 			path = "../Target Support Files/PGMTimer";
 			sourceTree = "<group>";
 		};
-		6155D6441C3310E4001A9525 /* Camera */ = {
+		388AB93C553EFD1F456FBE6C0A52F7A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6155D6451C3310E4001A9525 /* PGMCameraKit+Orientation.swift */,
-				6155D6461C3310E4001A9525 /* PGMCameraKit.swift */,
-				6155D6471C3310E4001A9525 /* PGMCameraKitHelper.swift */,
-				6155D6481C3310E4001A9525 /* PGMCameraKitProperties.swift */,
-				6155D6491C3310E4001A9525 /* PGMCameraKitWriter.swift */,
+				7D50AAC77946916ED38479AC88CF99AB /* CameraKit.bundle */,
+				5D2C323AE54585673E002A6B3C383529 /* PGMCameraKit.framework */,
+				78BA2749895692B0336E57280FB89A35 /* PGMTimer.bundle */,
+				DEC6FAC37F7A9391F7B2420615D2C76D /* PGMTimer.framework */,
+				4D3788E944C2C0E29339863C952A9A4C /* Pods_PGMCameraKit_Example.framework */,
 			);
-			path = Camera;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6155D64A1C3310E4001A9525 /* Extensions */ = {
+		4F953625A5719C8E1A5AA52A135F960A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6155D64B1C3310E4001A9525 /* NSError+Utils.swift */,
-				6155D64C1C3310E4001A9525 /* UIViewController+Utils.swift */,
+				68E1A3AA6B6FD718B7A19255E7141A9E /* Info.plist */,
+				51F80C6EEF00A2542FC2AEE9FF932272 /* PGMCameraKit.modulemap */,
+				CB7077C8F0C966391BAB0CE11C8C51F5 /* PGMCameraKit.xcconfig */,
+				0E6B97067321353943D24BE7328986E9 /* PGMCameraKit-dummy.m */,
+				02BD928211A200ECC52AFDD49F4520DB /* PGMCameraKit-prefix.pch */,
+				5F039C633526DCE59F73FEBF65EA686D /* PGMCameraKit-umbrella.h */,
 			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		6155D64D1C3310E4001A9525 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				6155D64E1C3310E4001A9525 /* FileManager.swift */,
-			);
-			path = Managers;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PGMCameraKit";
 			sourceTree = "<group>";
 		};
 		69B74CDAD73BB7F72A976042B979213D /* iOS */ = {
@@ -213,38 +258,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7D2FCC865B07E686DB3ECABAC2585E77 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EADE82609A9A44DAC28E2A0B6A5B0EBD /* CameraKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				7D2FCC865B07E686DB3ECABAC2585E77 /* Development Pods */,
+				C24A8552DFD133B1241A74E94FADA740 /* Development Pods */,
 				CEB0E5217995A5F450CAF59C00956E1E /* Frameworks */,
 				9D3E033826C12B07D956F6044C57872C /* Pods */,
-				DC0D819DC9AA7D1BF5002CB2226446FA /* Products */,
-				E93CE680549B4F30BD122375D4E2473A /* Targets Support Files */,
+				388AB93C553EFD1F456FBE6C0A52F7A2 /* Products */,
+				1908C7A2905D35B3741D7A39D800030E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F90D3A6FEF2B9B9066100344A818536 /* Support Files */ = {
+		88D58CE8D02D2A2F8001100FEC9CEE2E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				25D7E80037D194B2664BFADECE0A7D93 /* CameraKit.modulemap */,
-				B4ED92A2882AEDDB1766CE0A794EE266 /* CameraKit.xcconfig */,
-				85D61A978E50654563E3271BECB002D0 /* CameraKit-dummy.m */,
-				B47793A32651E06EFFF1EC964C086BDA /* CameraKit-prefix.pch */,
-				93956D8F45D5645072FC2CFE22064844 /* CameraKit-umbrella.h */,
-				5EAA860F87C01817A91A2BAB76C1D614 /* Info.plist */,
+				076D28980CCCE380AF02EBF0F5067DE4 /* Classes */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CameraKit";
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		8D0463E24C928F361F6BAEEBE80F985C /* PGMCameraKit */ = {
+			isa = PBXGroup;
+			children = (
+				88D58CE8D02D2A2F8001100FEC9CEE2E /* Pod */,
+				4F953625A5719C8E1A5AA52A135F960A /* Support Files */,
+			);
+			name = PGMCameraKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9D3E033826C12B07D956F6044C57872C /* Pods */ = {
@@ -255,40 +296,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A0F95AEA9E4D8615F0F8F0802B26E530 /* Pods-CameraKit_Example */ = {
+		A9372643E1CCE3E0AC0F11E9230494F8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4C96E4CAE581DA983C4AA77CAB4B4B19 /* Info.plist */,
-				DDA14D3F9F8F0B8496C8580BF4FB1233 /* Pods-CameraKit_Example.modulemap */,
-				451F502467F7AA2139FC604C5BE858F2 /* Pods-CameraKit_Example-acknowledgements.markdown */,
-				1AD37CB0C32CC3B3B748709D91ECAACD /* Pods-CameraKit_Example-acknowledgements.plist */,
-				8BB58219822D61841BE9AEAA6F482287 /* Pods-CameraKit_Example-dummy.m */,
-				52AEEFAA92E32E1F77C2686268F97771 /* Pods-CameraKit_Example-frameworks.sh */,
-				19B07FE0ED6FA33FD5E6F412BCADA911 /* Pods-CameraKit_Example-resources.sh */,
-				105CEF02D2B450DB02F31314ECFF62AE /* Pods-CameraKit_Example-umbrella.h */,
-				BA887206DECE355EF835B5FBC0252F48 /* Pods-CameraKit_Example.debug.xcconfig */,
-				B0E7ED101C9B8EFC8691E0C20A4FAF55 /* Pods-CameraKit_Example.release.xcconfig */,
+				B5B1E4668E249839B1C22E135FDAA67B /* NSError+Utils.swift */,
+				CBE5B64DD2BDB22318FE6B7441327ABD /* UIViewController+Utils.swift */,
 			);
-			name = "Pods-CameraKit_Example";
-			path = "Target Support Files/Pods-CameraKit_Example";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B67DAAEEB1454FF1679DEC9CAB1B1478 /* Classes */ = {
+		C0E08376E070751EE9C74374ACF3FE38 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				6155D6441C3310E4001A9525 /* Camera */,
-				6155D64A1C3310E4001A9525 /* Extensions */,
-				6155D64D1C3310E4001A9525 /* Managers */,
+				5458CF5CE973FFACC0183F988CEFDA93 /* FileManager.swift */,
 			);
-			path = Classes;
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		BE24DA36137890EACCC754087C23703A /* Pod */ = {
+		C24A8552DFD133B1241A74E94FADA740 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B67DAAEEB1454FF1679DEC9CAB1B1478 /* Classes */,
+				8D0463E24C928F361F6BAEEBE80F985C /* PGMCameraKit */,
 			);
-			path = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CEB0E5217995A5F450CAF59C00956E1E /* Frameworks */ = {
@@ -300,73 +330,82 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC0D819DC9AA7D1BF5002CB2226446FA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9A35E8D769E232A2E80E5983756B0F42 /* CameraKit.bundle */,
-				4D9DCDAA7331898C36973903884723D3 /* CameraKit.framework */,
-				0629DB090B8CE9C605C95225FC0DA7F7 /* PGMTimer.bundle */,
-				DED92E1C949223383736F110D004F787 /* PGMTimer.framework */,
-				192FF26CF7F3E3C1C2F981B890BE0679 /* Pods_CameraKit_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E93CE680549B4F30BD122375D4E2473A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0F95AEA9E4D8615F0F8F0802B26E530 /* Pods-CameraKit_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EADE82609A9A44DAC28E2A0B6A5B0EBD /* CameraKit */ = {
-			isa = PBXGroup;
-			children = (
-				BE24DA36137890EACCC754087C23703A /* Pod */,
-				7F90D3A6FEF2B9B9066100344A818536 /* Support Files */,
-			);
-			name = CameraKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		873C5FB54ACF0DB3F5EF08092678A440 /* Headers */ = {
+		992669152E4CD1451B1026D74805F72B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1813A2C3E5E2E4A374CDE3C01CCF817 /* PGMTimer-umbrella.h in Headers */,
+				ADFDE5B3B12F3769E923AB4C8CF46F1B /* Pods-PGMCameraKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D2FEF79F44FD3436194991CD5B6A331 /* Headers */ = {
+		AAF017B0511721A75B7C7426733FF0A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4176914BEA442210265D9CC3F1126F30 /* CameraKit-umbrella.h in Headers */,
+				0A8831488ECA8D0A6D978DEE48B7F57B /* PGMCameraKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7FEE2FDCB6DA8BE47B0FDF20FD7337A /* Headers */ = {
+		ACBECF04D9A2FA2E67D05ABBDD2103FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA6003F630CEDD3EC8839427ED8643B /* Pods-CameraKit_Example-umbrella.h in Headers */,
+				09408113B7569980FAB2A927A184EEE1 /* PGMTimer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14A4A09765939474B10C91296831AD0B /* PGMTimer-PGMTimer */ = {
+		014FF9F53BB28B341BB64A2C50BF105E /* PGMTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8BBE0DC147B83FE60FCD5BF85280F31 /* Build configuration list for PBXNativeTarget "PGMTimer-PGMTimer" */;
+			buildConfigurationList = 2B3EFA985E892C07D40B948C0540A6EB /* Build configuration list for PBXNativeTarget "PGMTimer" */;
 			buildPhases = (
-				38004879D07544BC2C14EE7FD66EB4BB /* Sources */,
-				A9A52EE3D7B453B3D5AEB5B16EAAD6DF /* Frameworks */,
-				FD768D883E60A6F1530A72D2EC330B09 /* Resources */,
+				705B647C4578B83DC761EA26D2259AD3 /* Sources */,
+				1697833BB3FF614362634246111D584B /* Frameworks */,
+				81FDEA6749DC7076764169734023A3D8 /* Resources */,
+				ACBECF04D9A2FA2E67D05ABBDD2103FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38907AC4AECCDEFE4284801006B20AE /* PBXTargetDependency */,
+			);
+			name = PGMTimer;
+			productName = PGMTimer;
+			productReference = DEC6FAC37F7A9391F7B2420615D2C76D /* PGMTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16F6A7BE549C570FF0EC357C66E72226 /* PGMCameraKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97947AC38C2A6967394E54EC8686C0F /* Build configuration list for PBXNativeTarget "PGMCameraKit" */;
+			buildPhases = (
+				E5BE27E361907100D44FC0C410CE7F60 /* Sources */,
+				7CBF82A1023DEC9F9C05CCB16D78F119 /* Frameworks */,
+				23726763C591275B445F19D9B705788F /* Resources */,
+				AAF017B0511721A75B7C7426733FF0A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B51BA6D455B7C4C7E3AB966DCA1CBF0 /* PBXTargetDependency */,
+				AE719DB617AB384351723835171DB08A /* PBXTargetDependency */,
+			);
+			name = PGMCameraKit;
+			productName = PGMCameraKit;
+			productReference = 5D2C323AE54585673E002A6B3C383529 /* PGMCameraKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61ADAA9C38266A8D3B4A18DF1B3D714A /* PGMTimer-PGMTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BF2448A359542A6D41D03A1AE1B4DD /* Build configuration list for PBXNativeTarget "PGMTimer-PGMTimer" */;
+			buildPhases = (
+				0362A9B1672B6048354E3A4FEEF3F1A8 /* Sources */,
+				7927EBDC6F86ECD021B0A3D798BE0832 /* Frameworks */,
+				7261642008A4ED3945286FE7B58840F2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -374,82 +413,43 @@
 			);
 			name = "PGMTimer-PGMTimer";
 			productName = "PGMTimer-PGMTimer";
-			productReference = 0629DB090B8CE9C605C95225FC0DA7F7 /* PGMTimer.bundle */;
+			productReference = 78BA2749895692B0336E57280FB89A35 /* PGMTimer.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		66DAC5A5045E0DF3FC0ABA6EB6B1EFF1 /* Pods-CameraKit_Example */ = {
+		C7A7DDBBADD9C79906D44F7CF5CECCB9 /* PGMCameraKit-CameraKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78CFFC5D93EC9E15D767C063F6EF2DD4 /* Build configuration list for PBXNativeTarget "Pods-CameraKit_Example" */;
+			buildConfigurationList = F6A4C5203B50FDBFCE9834EB32B6E0DB /* Build configuration list for PBXNativeTarget "PGMCameraKit-CameraKit" */;
 			buildPhases = (
-				BB73C6E6FC75881F4262A000F4941A74 /* Sources */,
-				197D31992B275A9AA84169F7A2E28841 /* Frameworks */,
-				C7FEE2FDCB6DA8BE47B0FDF20FD7337A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C00EEF531CE2EBD6BA6F2875E912BEA0 /* PBXTargetDependency */,
-				1AB13311C96B2C2A42A3F398A6D552CC /* PBXTargetDependency */,
-			);
-			name = "Pods-CameraKit_Example";
-			productName = "Pods-CameraKit_Example";
-			productReference = 192FF26CF7F3E3C1C2F981B890BE0679 /* Pods_CameraKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		80C27DEAA44F16C6C9E8088E5A71A7A4 /* CameraKit-CameraKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D67B786E7A01F32674FD5E655D47BF54 /* Build configuration list for PBXNativeTarget "CameraKit-CameraKit" */;
-			buildPhases = (
-				A177D460BEB39230442C3249CD3DA825 /* Sources */,
-				17FF882A04CD681400605324185622A7 /* Frameworks */,
-				6A555510D4CB27E7E91C5EE485D5F274 /* Resources */,
+				8BC010BA4FBCDEAA14DCA7F8CE42250D /* Sources */,
+				42786E11D66036B4E80CC28BBE74B6EE /* Frameworks */,
+				6E6E5D6A8105FD550F3E7F88DA273A9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CameraKit-CameraKit";
-			productName = "CameraKit-CameraKit";
-			productReference = 9A35E8D769E232A2E80E5983756B0F42 /* CameraKit.bundle */;
+			name = "PGMCameraKit-CameraKit";
+			productName = "PGMCameraKit-CameraKit";
+			productReference = 7D50AAC77946916ED38479AC88CF99AB /* CameraKit.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		DD8F86B121902C37B550E5782C935B82 /* PGMTimer */ = {
+		F204C922C320178B2FD6CE81BF670967 /* Pods-PGMCameraKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 489FC304CEF9CEFADADA81DFF29AD8C8 /* Build configuration list for PBXNativeTarget "PGMTimer" */;
+			buildConfigurationList = 0FF1110E6B4F99889A93870B4351EFBA /* Build configuration list for PBXNativeTarget "Pods-PGMCameraKit_Example" */;
 			buildPhases = (
-				D9D5DD3BCC66A2E61C87E14536FF2141 /* Sources */,
-				06B321283F18242BEAECC27579539F7B /* Frameworks */,
-				AD181A407FE494246CD9B77901597FEE /* Resources */,
-				873C5FB54ACF0DB3F5EF08092678A440 /* Headers */,
+				E6AD1E46C909F494CD6E7A579F72DA9C /* Sources */,
+				B7C7769F4328869D874EB861720EF85F /* Frameworks */,
+				992669152E4CD1451B1026D74805F72B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D3039D0A2FC149099EA3F8D421AAA75 /* PBXTargetDependency */,
+				8D04DE7B83ED1281757F346C83F13B6C /* PBXTargetDependency */,
+				D8E35EA3F379486E36E8DADD6F0B796B /* PBXTargetDependency */,
 			);
-			name = PGMTimer;
-			productName = PGMTimer;
-			productReference = DED92E1C949223383736F110D004F787 /* PGMTimer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FEB56DA3A9406A22A853ABC78492FD6B /* CameraKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBF6FDD2B0987B02ED297771F0577EE5 /* Build configuration list for PBXNativeTarget "CameraKit" */;
-			buildPhases = (
-				727659CE884D4382D1485D8C33BF4B10 /* Sources */,
-				3BF886A1199443B2BFC36CA156123A1C /* Frameworks */,
-				6A8307F9060138C0F6C61F7A78403F34 /* Resources */,
-				9D2FEF79F44FD3436194991CD5B6A331 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D7E5168BEE113FD9306FA45F45C02FA /* PBXTargetDependency */,
-				AD88460232442EA87A4E62B5B458381A /* PBXTargetDependency */,
-			);
-			name = CameraKit;
-			productName = CameraKit;
-			productReference = 4D9DCDAA7331898C36973903884723D3 /* CameraKit.framework */;
+			name = "Pods-PGMCameraKit_Example";
+			productName = "Pods-PGMCameraKit_Example";
+			productReference = 4D3788E944C2C0E29339863C952A9A4C /* Pods_PGMCameraKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -469,136 +469,176 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DC0D819DC9AA7D1BF5002CB2226446FA /* Products */;
+			productRefGroup = 388AB93C553EFD1F456FBE6C0A52F7A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEB56DA3A9406A22A853ABC78492FD6B /* CameraKit */,
-				80C27DEAA44F16C6C9E8088E5A71A7A4 /* CameraKit-CameraKit */,
-				DD8F86B121902C37B550E5782C935B82 /* PGMTimer */,
-				14A4A09765939474B10C91296831AD0B /* PGMTimer-PGMTimer */,
-				66DAC5A5045E0DF3FC0ABA6EB6B1EFF1 /* Pods-CameraKit_Example */,
+				16F6A7BE549C570FF0EC357C66E72226 /* PGMCameraKit */,
+				C7A7DDBBADD9C79906D44F7CF5CECCB9 /* PGMCameraKit-CameraKit */,
+				014FF9F53BB28B341BB64A2C50BF105E /* PGMTimer */,
+				61ADAA9C38266A8D3B4A18DF1B3D714A /* PGMTimer-PGMTimer */,
+				F204C922C320178B2FD6CE81BF670967 /* Pods-PGMCameraKit_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A555510D4CB27E7E91C5EE485D5F274 /* Resources */ = {
+		23726763C591275B445F19D9B705788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668FF1E75118AAF202B4235D9DD6C94E /* CameraKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E6E5D6A8105FD550F3E7F88DA273A9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A8307F9060138C0F6C61F7A78403F34 /* Resources */ = {
+		7261642008A4ED3945286FE7B58840F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4819E0EA2F64BF20BE5434A9B4FCB5E3 /* CameraKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD181A407FE494246CD9B77901597FEE /* Resources */ = {
+		81FDEA6749DC7076764169734023A3D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				917ED0B752162D5132577C935B974B7C /* PGMTimer.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD768D883E60A6F1530A72D2EC330B09 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				19288D4E5BCD7CED34C2FECE6E74A73F /* PGMTimer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38004879D07544BC2C14EE7FD66EB4BB /* Sources */ = {
+		0362A9B1672B6048354E3A4FEEF3F1A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		727659CE884D4382D1485D8C33BF4B10 /* Sources */ = {
+		705B647C4578B83DC761EA26D2259AD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2151B8D4562E7A610114011377449B /* CameraKit-dummy.m in Sources */,
-				6155D6511C3310E4001A9525 /* PGMCameraKitHelper.swift in Sources */,
-				6155D6541C3310E4001A9525 /* NSError+Utils.swift in Sources */,
-				6155D6561C3310E4001A9525 /* FileManager.swift in Sources */,
-				6155D6521C3310E4001A9525 /* PGMCameraKitProperties.swift in Sources */,
-				6155D6501C3310E4001A9525 /* PGMCameraKit.swift in Sources */,
-				6155D64F1C3310E4001A9525 /* PGMCameraKit+Orientation.swift in Sources */,
-				6155D6531C3310E4001A9525 /* PGMCameraKitWriter.swift in Sources */,
-				6155D6551C3310E4001A9525 /* UIViewController+Utils.swift in Sources */,
+				A3586C2B4B0FF390EAFC70DA9CA41983 /* PGMTimer-dummy.m in Sources */,
+				DC73DF1D9155BEF2B1ED91A37D605A1E /* PGMTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A177D460BEB39230442C3249CD3DA825 /* Sources */ = {
+		8BC010BA4FBCDEAA14DCA7F8CE42250D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB73C6E6FC75881F4262A000F4941A74 /* Sources */ = {
+		E5BE27E361907100D44FC0C410CE7F60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0093DA311C4105449C1AEB811539F2 /* Pods-CameraKit_Example-dummy.m in Sources */,
+				A08966BD07700B9ACAC64567AC2AC7DE /* FileManager.swift in Sources */,
+				C5E16C10AF110BF35EB30038E54BDF9A /* NSError+Utils.swift in Sources */,
+				47711D914507F106C185E439A2DDF5D5 /* PGMCameraKit+Orientation.swift in Sources */,
+				9A0C3AF031AD4A56C0AE674D2458EAF4 /* PGMCameraKit-dummy.m in Sources */,
+				1B28CB92D2D24DA370983CE0D8D3BAD6 /* PGMCameraKit.swift in Sources */,
+				81B79371E8AB6AFA59F2CA1E32B06F9F /* PGMCameraKitHelper.swift in Sources */,
+				E564F061F13CA2D7C514B73B6518A1B2 /* PGMCameraKitProperties.swift in Sources */,
+				8C0AD4375E30B35B4BC35F0452ECA5C0 /* PGMCameraKitWriter.swift in Sources */,
+				0A72F82FE045B8C786E4A6A6BAE2757A /* UIViewController+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9D5DD3BCC66A2E61C87E14536FF2141 /* Sources */ = {
+		E6AD1E46C909F494CD6E7A579F72DA9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC30EF858CDFD29D5E966A6EC03B4B65 /* PGMTimer-dummy.m in Sources */,
-				8201B8442F09ED299F6230E6554197B5 /* PGMTimer.swift in Sources */,
+				AA1F43F7930983A9A517C157CE96999A /* Pods-PGMCameraKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1AB13311C96B2C2A42A3F398A6D552CC /* PBXTargetDependency */ = {
+		6B51BA6D455B7C4C7E3AB966DCA1CBF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PGMTimer;
-			target = DD8F86B121902C37B550E5782C935B82 /* PGMTimer */;
-			targetProxy = 9853CA4A8ACCF1C5338E1D84B05250CC /* PBXContainerItemProxy */;
+			name = "PGMCameraKit-CameraKit";
+			target = C7A7DDBBADD9C79906D44F7CF5CECCB9 /* PGMCameraKit-CameraKit */;
+			targetProxy = 07E887E78A21A29CBCD1E845275CE578 /* PBXContainerItemProxy */;
 		};
-		2D3039D0A2FC149099EA3F8D421AAA75 /* PBXTargetDependency */ = {
+		8D04DE7B83ED1281757F346C83F13B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGMCameraKit;
+			target = 16F6A7BE549C570FF0EC357C66E72226 /* PGMCameraKit */;
+			targetProxy = 69E6919846A60C58FD4A80789093CB42 /* PBXContainerItemProxy */;
+		};
+		A38907AC4AECCDEFE4284801006B20AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PGMTimer-PGMTimer";
-			target = 14A4A09765939474B10C91296831AD0B /* PGMTimer-PGMTimer */;
-			targetProxy = 86FE959E656D1AA041325C0315C6D17E /* PBXContainerItemProxy */;
+			target = 61ADAA9C38266A8D3B4A18DF1B3D714A /* PGMTimer-PGMTimer */;
+			targetProxy = A93D9E8DEF003F03EA020E0B28712715 /* PBXContainerItemProxy */;
 		};
-		3D7E5168BEE113FD9306FA45F45C02FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CameraKit-CameraKit";
-			target = 80C27DEAA44F16C6C9E8088E5A71A7A4 /* CameraKit-CameraKit */;
-			targetProxy = 61CFE1F2C2423B2A617D1D1D9BFB9F4E /* PBXContainerItemProxy */;
-		};
-		AD88460232442EA87A4E62B5B458381A /* PBXTargetDependency */ = {
+		AE719DB617AB384351723835171DB08A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PGMTimer;
-			target = DD8F86B121902C37B550E5782C935B82 /* PGMTimer */;
-			targetProxy = 00DA6005CB982F7680B0380783452F64 /* PBXContainerItemProxy */;
+			target = 014FF9F53BB28B341BB64A2C50BF105E /* PGMTimer */;
+			targetProxy = 902F27833532173D2E8488391EF0C350 /* PBXContainerItemProxy */;
 		};
-		C00EEF531CE2EBD6BA6F2875E912BEA0 /* PBXTargetDependency */ = {
+		D8E35EA3F379486E36E8DADD6F0B796B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CameraKit;
-			target = FEB56DA3A9406A22A853ABC78492FD6B /* CameraKit */;
-			targetProxy = 6DC68ED007C272AEFC719B78A3348E84 /* PBXContainerItemProxy */;
+			name = PGMTimer;
+			target = 014FF9F53BB28B341BB64A2C50BF105E /* PGMTimer */;
+			targetProxy = 392A1549495AFD9063A7ED75C7290FEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01701A4DCAC91BF657676D2282687AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGMTimer/PGMTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGMTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGMTimer/PGMTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PGMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D159F01788ED1BBDDA8E5D4678C1ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7077C8F0C966391BAB0CE11C8C51F5 /* PGMCameraKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CameraKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -630,64 +670,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		309AF03ED8AF53B8F6CCC22D721C60DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA887206DECE355EF835B5FBC0252F48 /* Pods-CameraKit_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CameraKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CameraKit_Example/Pods-CameraKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CameraKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4A7AB0D005EC25645D9FBFDBBFFA6728 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4ED92A2882AEDDB1766CE0A794EE266 /* CameraKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CameraKit/CameraKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CameraKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CameraKit/CameraKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CameraKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -730,21 +712,9 @@
 			};
 			name = Debug;
 		};
-		5EFEA479C0CCD31CD764EE2CCEF11019 /* Release */ = {
+		644133D7E5F8B216C0ED031F75578A4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PGMTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6A73352664327E0A27316959B0B22F61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
+			baseConfigurationReference = 7A0CA1A43FF2745F2ACCF9EF8FFDC7F7 /* Pods-PGMCameraKit_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -753,136 +723,166 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PGMTimer/PGMTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PGMTimer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PGMTimer/PGMTimer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PGMTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6EE7F2E47633115BB6B6EC332F23EEAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PGMTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		82BD13ACFB72AB69E28BF060D0E4E38B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4ED92A2882AEDDB1766CE0A794EE266 /* CameraKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CameraKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		82D293AF02BAF28D77986D5478AC4BF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4ED92A2882AEDDB1766CE0A794EE266 /* CameraKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CameraKit/CameraKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CameraKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CameraKit/CameraKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CameraKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		99AA65C3D4178C054A752E42D175204A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4ED92A2882AEDDB1766CE0A794EE266 /* CameraKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CameraKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		AE30EB29D9FE4183342BC790E536A650 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PGMTimer/PGMTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PGMTimer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PGMTimer/PGMTimer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PGMTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EDCBE5EE99BCF8621ED305E71111C264 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0E7ED101C9B8EFC8691E0C20A4FAF55 /* Pods-CameraKit_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CameraKit_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGMCameraKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CameraKit_Example/Pods-CameraKit_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PGMCameraKit_Example/Pods-PGMCameraKit_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CameraKit_Example;
+				PRODUCT_NAME = Pods_PGMCameraKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67FA27998C002EB68AEB81D164A1DC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7077C8F0C966391BAB0CE11C8C51F5 /* PGMCameraKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGMCameraKit/PGMCameraKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGMCameraKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGMCameraKit/PGMCameraKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PGMCameraKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8772BC7E8C6C2BF1CCD9A2C21E89524A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7077C8F0C966391BAB0CE11C8C51F5 /* PGMCameraKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CameraKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A326B20710AF7C8EC252D43DFA0923EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF9D90932294C62CA5A97AB77958897 /* Pods-PGMCameraKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PGMCameraKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGMCameraKit_Example/Pods-PGMCameraKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PGMCameraKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A327B60E6A4D1C16A2A3C84C6C7AEA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGMTimer/PGMTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGMTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGMTimer/PGMTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PGMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B71B42E356CC6C59C3A76523219C9C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PGMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E27C8E7145DD75AF07692C6D80806A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FB8B31847B951A0854D09A9DAB23E /* PGMTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PGMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ED9FB21C311D923AFD5AD5C0D3579FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7077C8F0C966391BAB0CE11C8C51F5 /* PGMCameraKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGMCameraKit/PGMCameraKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGMCameraKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGMCameraKit/PGMCameraKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PGMCameraKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -894,6 +894,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FF1110E6B4F99889A93870B4351EFBA /* Build configuration list for PBXNativeTarget "Pods-PGMCameraKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A326B20710AF7C8EC252D43DFA0923EA /* Debug */,
+				644133D7E5F8B216C0ED031F75578A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3EFA985E892C07D40B948C0540A6EB /* Build configuration list for PBXNativeTarget "PGMTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01701A4DCAC91BF657676D2282687AC1 /* Debug */,
+				A327B60E6A4D1C16A2A3C84C6C7AEA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -903,47 +921,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		489FC304CEF9CEFADADA81DFF29AD8C8 /* Build configuration list for PBXNativeTarget "PGMTimer" */ = {
+		60BF2448A359542A6D41D03A1AE1B4DD /* Build configuration list for PBXNativeTarget "PGMTimer-PGMTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE30EB29D9FE4183342BC790E536A650 /* Debug */,
-				6A73352664327E0A27316959B0B22F61 /* Release */,
+				B71B42E356CC6C59C3A76523219C9C4B /* Debug */,
+				E27C8E7145DD75AF07692C6D80806A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78CFFC5D93EC9E15D767C063F6EF2DD4 /* Build configuration list for PBXNativeTarget "Pods-CameraKit_Example" */ = {
+		B97947AC38C2A6967394E54EC8686C0F /* Build configuration list for PBXNativeTarget "PGMCameraKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				309AF03ED8AF53B8F6CCC22D721C60DE /* Debug */,
-				EDCBE5EE99BCF8621ED305E71111C264 /* Release */,
+				67FA27998C002EB68AEB81D164A1DC50 /* Debug */,
+				ED9FB21C311D923AFD5AD5C0D3579FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D67B786E7A01F32674FD5E655D47BF54 /* Build configuration list for PBXNativeTarget "CameraKit-CameraKit" */ = {
+		F6A4C5203B50FDBFCE9834EB32B6E0DB /* Build configuration list for PBXNativeTarget "PGMCameraKit-CameraKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82BD13ACFB72AB69E28BF060D0E4E38B /* Debug */,
-				99AA65C3D4178C054A752E42D175204A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBF6FDD2B0987B02ED297771F0577EE5 /* Build configuration list for PBXNativeTarget "CameraKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82D293AF02BAF28D77986D5478AC4BF4 /* Debug */,
-				4A7AB0D005EC25645D9FBFDBBFFA6728 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8BBE0DC147B83FE60FCD5BF85280F31 /* Build configuration list for PBXNativeTarget "PGMTimer-PGMTimer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EE7F2E47633115BB6B6EC332F23EEAF /* Debug */,
-				5EFEA479C0CCD31CD764EE2CCEF11019 /* Release */,
+				8772BC7E8C6C2BF1CCD9A2C21E89524A /* Debug */,
+				0D159F01788ED1BBDDA8E5D4678C1ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

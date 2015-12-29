@@ -9,7 +9,7 @@
         <!--Camera-->
         <scene sceneID="Yug-Ua-41y">
             <objects>
-                <viewController title="Camera" id="dB4-ny-yyO" customClass="ViewController" customModule="CameraKit_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Camera" id="dB4-ny-yyO" customClass="ViewController" customModule="PGMCameraKit_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VSb-6P-fbb"/>
                         <viewControllerLayoutGuide type="bottom" id="MCR-Hf-8aj"/>

@@ -23,15 +23,15 @@ THE SOFTWARE.
 import UIKit
 import CoreMedia
 import AVFoundation
-import CameraKit
+import PGMCameraKit
 
 class ViewController: UIViewController {
     
     
     // MARK: Members
     
-    let cameraManager       = CameraKit()
-    let helper              = CameraKitHelper()
+    let cameraManager       = PGMCameraKit()
+    let helper              = PGMCameraKitHelper()
     var player: AVPlayer!
     
     
@@ -54,6 +54,16 @@ class ViewController: UIViewController {
         if currentCameraState == .NotDetermined || currentCameraState == .AccessDenied {
             
             print("We don't have permission to use the camera.")
+            
+            cameraManager.askUserForCameraPermissions({ [unowned self] permissionGranted in
+                
+                if permissionGranted {
+                    self.addCameraToView()
+                }
+                else {
+                    self.addCameraAccessDeniedPopup("Go to settings and grant acces to the camera device to use it.")
+                }
+            })
         }
         else if (currentCameraState == .Ready) {
             
@@ -172,7 +182,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         
     }
-
+    
     
     // MARK: Error Popups
     
@@ -316,20 +326,6 @@ class ViewController: UIViewController {
         case .Back:
             sender.setTitle("Back", forState: UIControlState.Normal)
         }
-    }
-    
-    @IBAction func askForCameraPermissions(sender: UIButton) {
-        
-        cameraManager.askUserForCameraPermissions({ [unowned self] permissionGranted in
-            
-            if permissionGranted {
-                
-                self.addCameraToView()
-            }
-            else {
-                self.addCameraAccessDeniedPopup("Go to settings and grant acces to the camera device to use it.")
-            }
-            })
     }
     
     @IBAction func changeCameraQuality(sender: UIButton) {

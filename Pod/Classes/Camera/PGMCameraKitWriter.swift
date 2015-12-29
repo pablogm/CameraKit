@@ -24,7 +24,7 @@ import Foundation
 import AVFoundation
 import AssetsLibrary
 
-@objc class CameraKitWriter : NSObject{
+@objc class PGMCameraKitWriter : NSObject{
     
     
     // MARK: Members

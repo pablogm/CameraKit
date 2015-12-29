@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import CameraKit
+import PGMCameraKit
 
 class Tests: XCTestCase {
     

@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'CameraKit_Example', :exclusive => true do
-  pod "CameraKit", :path => "../"
-  pod "PGMTimer"
+target 'PGMCameraKit_Example', :exclusive => true do
+    pod "PGMCameraKit", :path => "../"
+    pod "PGMTimer"
 end

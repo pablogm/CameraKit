@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-CameraKit_Example/CameraKit.framework"
-  install_framework "Pods-CameraKit_Example/PGMTimer.framework"
+  install_framework "Pods-PGMCameraKit_Example/PGMCameraKit.framework"
+  install_framework "Pods-PGMCameraKit_Example/PGMTimer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-CameraKit_Example/CameraKit.framework"
-  install_framework "Pods-CameraKit_Example/PGMTimer.framework"
+  install_framework "Pods-PGMCameraKit_Example/PGMCameraKit.framework"
+  install_framework "Pods-PGMCameraKit_Example/PGMTimer.framework"
 fi

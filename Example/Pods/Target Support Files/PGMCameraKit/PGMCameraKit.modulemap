@@ -1,0 +1,6 @@
+framework module PGMCameraKit {
+  umbrella header "PGMCameraKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

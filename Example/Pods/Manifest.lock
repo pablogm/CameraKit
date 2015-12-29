@@ -1,18 +1,18 @@
 PODS:
-  - CameraKit (0.1.0):
+  - PGMCameraKit (0.1.0):
     - PGMTimer
   - PGMTimer (0.1.2)
 
 DEPENDENCIES:
-  - CameraKit (from `../`)
+  - PGMCameraKit (from `../`)
   - PGMTimer
 
 EXTERNAL SOURCES:
-  CameraKit:
+  PGMCameraKit:
     :path: ../
 
 SPEC CHECKSUMS:
-  CameraKit: 7d3d4ca5e01ede2d65cca1cd25d777a2ff89f6f6
+  PGMCameraKit: f01daec4b7c5b3a005c6ee0e6ed2928546987ac6
   PGMTimer: 82b9e82edddb0622f6edcac713eb1d2fc0601ee6
 
 COCOAPODS: 0.39.0
