@@ -1,6 +1,5 @@
 # CameraKit
 
-#[![CI Status](http://img.shields.io/travis/pablogm/CameraKit.svg?style=flat)](https://travis-ci.org/pablogm/CameraKit)
 [![Version](https://img.shields.io/cocoapods/v/CameraKit.svg?style=flat)](http://cocoapods.org/pods/CameraKit)
 [![License](https://img.shields.io/cocoapods/l/CameraKit.svg?style=flat)](http://cocoapods.org/pods/CameraKit)
 [![Platform](https://img.shields.io/cocoapods/p/CameraKit.svg?style=flat)](http://cocoapods.org/pods/CameraKit)
