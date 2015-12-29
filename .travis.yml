@@ -7,7 +7,7 @@ podfile: Example/Podfile
 script:
 
   xctool
-  -workspace Example/CameraKit.xcworkspace
+  -workspace Example/PGMCameraKit.xcworkspace
   -scheme PGMCameraKit-Example
   -sdk iphonesimulator
   -destination 'platform=iOS Simulator,name=iPhone 6 Plus'
