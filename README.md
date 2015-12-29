@@ -1,8 +1,8 @@
 # CameraKit
 
-[![Version](https://img.shields.io/cocoapods/v/CameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
-[![License](https://img.shields.io/cocoapods/l/CameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
-[![Platform](https://img.shields.io/cocoapods/p/CameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
+[![Version](https://img.shields.io/cocoapods/v/PGMCameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
+[![License](https://img.shields.io/cocoapods/l/PGMCameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
+[![Platform](https://img.shields.io/cocoapods/p/PGMCameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Swift library to provide all the configurations you need to create a camera view: 
