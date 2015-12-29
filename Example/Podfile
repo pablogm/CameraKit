@@ -3,10 +3,5 @@ use_frameworks!
 
 target 'CameraKit_Example', :exclusive => true do
   pod "CameraKit", :path => "../"
-end
-
-target 'CameraKit_Tests', :exclusive => true do
-  pod "CameraKit", :path => "../"
-
-  
+  pod "PGMTimer"
 end

@@ -1,0 +1,6 @@
+framework module PGMTimer {
+  umbrella header "PGMTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
