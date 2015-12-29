@@ -11,8 +11,8 @@ Swift library to provide all the configurations you need to create a camera view
 * Start / pause / resume / stop recording
 * Video compression 
 * Save / Fetch videos & images from the media library
-* Max video duration threshold
-* Follows camera orientation change
+* Set max video duration threshold
+* Follow camera orientation change
 * Front and back camera
 * Flash modes
 * Video / still image modes
@@ -51,13 +51,13 @@ Init Camera Kit:
 let cameraManager       = PGMCameraKit()
 ```
 
-Init Camera Kit Helper (utils functions to save images/videos, retrieve images/videos from media library and compress video output)
+Init Camera Kit Helper (util functions to save images/videos, retrieve images/videos from media library and compress video output)
 
 ```
 let helper              = PGMCameraKitHelper()
 ```
 
-Ask user permissions for camera permissions:
+Ask user for camera permissions:
 
 ```
 cameraManager.askUserForCameraPermissions({ [unowned self] permissionGranted in
@@ -94,7 +94,6 @@ cameraManager.addCameraTimeListener( { time in
 })
 
 // Video time limit
-
 cameraManager.addMaxAllowedLengthListener({ [unowned self] (videoURL, error, localIdentifier) -> () in
 
     if let err = error {
