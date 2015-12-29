@@ -8,7 +8,7 @@ script:
 
   xctool
   -workspace Example/CameraKit.xcworkspace
-  -scheme CameraKit-Example
+  -scheme PGMCameraKit-Example
   -sdk iphonesimulator
   -destination 'platform=iOS Simulator,name=iPhone 6 Plus'
   build 
