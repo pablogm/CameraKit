@@ -1,5 +1,6 @@
 # CameraKit
 
+[![CI Status](http://img.shields.io/travis/pablogm/CameraKit.svg?style=flat)](https://travis-ci.org/pablogm/CameraKit)
 [![Version](https://img.shields.io/cocoapods/v/PGMCameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
 [![License](https://img.shields.io/cocoapods/l/PGMCameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
 [![Platform](https://img.shields.io/cocoapods/p/PGMCameraKit.svg?style=flat)](http://cocoapods.org/pods/PGMCameraKit)
@@ -29,6 +30,16 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "PGMCameraKit"
+```
+
+## Installation with Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is another dependency management tool written in Swift.
+
+Add the following line to your Cartfile:
+
+```
+github "pablogm/CameraKit"
 ```
 
 ## How to use
