@@ -39,7 +39,7 @@ pod "PGMCameraKit"
 
 Add the following line to your Cartfile:
 
-```
+```ruby
 github "pablogm/CameraKit"
 ```
 
@@ -47,19 +47,19 @@ github "pablogm/CameraKit"
 
 Init Camera Kit:
 
-```
+```swift
 let cameraManager       = PGMCameraKit()
 ```
 
 Init Camera Kit Helper (util functions to save images/videos, retrieve images/videos from media library and compress video output)
 
-```
+```swift
 let helper              = PGMCameraKitHelper()
 ```
 
 Ask user for camera permissions:
 
-```
+```swift
 cameraManager.askUserForCameraPermissions({ [unowned self] permissionGranted in
 
     if permissionGranted {
@@ -74,13 +74,13 @@ cameraManager.askUserForCameraPermissions({ [unowned self] permissionGranted in
 
 Set video time limit.
 
-```
+```swift
 cameraManager.maxRecordedDuration = 4.0 // secs
 ```
 
 Listeners:
 
-```
+```swift
 // Errors
 cameraManager.addCameraErrorListener( { error in
 
@@ -116,7 +116,7 @@ cameraManager.addMaxAllowedLengthListener({ [unowned self] (videoURL, error, loc
 
 Start recording video:
 
-```
+```swift
 cameraManager.startRecordingVideo( {(error)->() in
 
     if let err = error {
@@ -127,19 +127,19 @@ cameraManager.startRecordingVideo( {(error)->() in
 
 Pause recording:
 
-```
+```swift
 cameraManager.pauseRecordingVideo()
 ```
 
 Resume recording:
 
-```
+```swift
 cameraManager.resumeRecordingVideo()
 ```
 
 Stop recording:
 
-```
+```swift
 cameraManager.stopRecordingVideo( { (videoURL, error, localIdentifier) -> () in
 
     if let err = error {
@@ -154,7 +154,7 @@ cameraManager.stopRecordingVideo( { (videoURL, error, localIdentifier) -> () in
 
 Video compression:
 
-```
+```swift
 // The compress file extension will depend on the output file type
 self.helper.compressVideo(url, outputURL: self.cameraManager.tempCompressFilePath("mp4"), outputFileType: AVFileTypeMPEG4, handler: { session in
 
