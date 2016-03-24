@@ -79,12 +79,12 @@ public enum TimerState {
     
     
     // MARK: Start - Pause - Resume - Stop
-    public func start(tmr : NSTimer? = nil)
+    @objc public func start(tmr : NSTimer? = nil)
     {
         if timer == nil {
             
             timerWillStart()
-            timer = NSTimer.scheduledTimerWithTimeInterval(interval, target: self, selector: "fire", userInfo: nil, repeats: true)
+            timer = NSTimer.scheduledTimerWithTimeInterval(interval, target: self, selector: #selector(PGMTimer.fire), userInfo: nil, repeats: true)
         }
         else {
             
@@ -119,7 +119,7 @@ public enum TimerState {
         
         timerWillResume()
         
-        NSTimer.scheduledTimerWithTimeInterval(diff, target: self, selector: "start:", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(diff, target: self, selector: #selector(PGMTimer.start(_:)), userInfo: nil, repeats: false)
         diff = 0.0
     }
     
@@ -151,7 +151,7 @@ public enum TimerState {
     
     // MARK: Fire
     
-    public func fire()
+    @objc public func fire()
     {
         timeCount = timeCount + interval
         

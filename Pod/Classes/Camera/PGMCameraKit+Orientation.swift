@@ -52,7 +52,7 @@ extension PGMCameraKit {
         
         if cameraIsObservingDeviceOrientation == nil ||  cameraIsObservingDeviceOrientation == false {
             
-            NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("orientationChanged"), name: UIDeviceOrientationDidChangeNotification, object: nil)
+            NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(PGMCameraKit.orientationChanged), name: UIDeviceOrientationDidChangeNotification, object: nil)
             cameraIsObservingDeviceOrientation = true
         }
     }

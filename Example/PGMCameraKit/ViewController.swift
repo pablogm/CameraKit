@@ -165,18 +165,12 @@ class ViewController: UIViewController {
         
         navigationController?.navigationBar.hidden = true
         cameraManager.resumeCaptureSession()
-        
-        // Start observing
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "postVideoFulFill:", name: "FulfillVideoPostRequest", object: nil)
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
         cameraManager.stopCaptureSession()
-        
-        // Stop observing
-        NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
     override func viewDidAppear(animated: Bool) {

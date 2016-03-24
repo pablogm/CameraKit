@@ -1068,7 +1068,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
         
         let url = self.filePathUrl()
         
-        self.fileIndex++
+        self.fileIndex += 1
         
         self.isCapturing = false
         
