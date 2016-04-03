@@ -661,7 +661,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                     self.videoWriter = PGMCameraKitWriter(
                         fileUrl: self.filePathUrl(),
                         height: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? (self.cameraDevice == .Back ? self.width! : self.height!) : (self.height!),
-                        width: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? (self.cameraDevice == .Back ? self.height! : self.width!) : (self.width!),
+                        width: AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait ? (self.cameraDevice == .Back ? self.height! : self.width!) : (self.width!)
                     )
                 }
             }
