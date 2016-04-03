@@ -55,6 +55,10 @@ import AssetsLibrary
         
         videoInput = AVAssetWriterInput(mediaType: AVMediaTypeVideo, outputSettings: videoOutputSettings)
         videoInput.expectsMediaDataInRealTime = true
+        if width > height {
+            videoInput.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+        }
+
         fileWriter.addInput(self.videoInput)
         
         // Audio
@@ -92,7 +96,10 @@ import AssetsLibrary
         
         videoInput = AVAssetWriterInput(mediaType: AVMediaTypeVideo, outputSettings: videoOutputSettings)
         videoInput.expectsMediaDataInRealTime = true
-        //videoInput.transform = CGAffineTransformMakeRotation(CGFloat(M_PI))
+        if width > height {
+            videoInput.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+        }
+
         
         fileWriter.addInput(self.videoInput)
     }
