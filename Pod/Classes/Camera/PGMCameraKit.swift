@@ -70,7 +70,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
     }()
     
     /// Property to change camera device between front and back.
-    public var cameraDevice = CameraDevice.Back {
+    public var cameraDevice = CameraDevice.Front {
         didSet {
             if cameraDevice != oldValue {
                 updateCameraDevice(cameraDevice)
@@ -165,6 +165,8 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
     private var isCapturing     = false
     private var isPaused        = false
     private var isDiscontinue   = false
+    private var isInitialSetup  = true
+    
     private var fileIndex       = 0
     
     private var timeOffset      = CMTimeMake(0, 0)
@@ -628,10 +630,31 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                     
                     print("setup video writer (with mic)")
                     
+                    var w:Int!
+                    var h:Int!
+                    
+                    if self.isInitialSetup == true {
+                        
+                        self.isInitialSetup = false
+                        
+                        if AVCaptureVideoOrientation(ui:UIDevice.currentDevice().orientation) == .Portrait {
+                            w = self.height
+                            h = self.width
+                        }
+                        else {
+                            w = self.width
+                            h = self.height
+                        }
+                    }
+                    else {
+                        w = self.width
+                        h = self.height
+                    }
+                    
                     self.videoWriter = PGMCameraKitWriter(
                         fileUrl: self.filePathUrl(),
-                        height: self.height!,
-                        width: self.width!,
+                        height: h,
+                        width: w,
                         channels: Int(asbd.memory.mChannelsPerFrame),
                         samples: asbd.memory.mSampleRate
                     )
@@ -838,7 +861,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
     
     private func setupCamera(completition: CompletionType) {
         captureSession = AVCaptureSession()
-        
+
         dispatch_async(sessionQueue, {
             if let validCaptureSession = self.captureSession {
                 validCaptureSession.beginConfiguration()
@@ -853,6 +876,7 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                 validCaptureSession.startRunning()
                 self.startFollowingDeviceOrientation()
                 self.cameraIsSetup = true
+                self.isInitialSetup = true
                 self.orientationChanged()
                 
                 completition()
@@ -983,6 +1007,9 @@ public typealias ImageCompletionType = (UIImage?, NSError?, LocalIdentifierType?
                     }
                 }
             }
+            
+            isInitialSetup = false
+            
             validCaptureSession.commitConfiguration()
         }
     }

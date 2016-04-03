@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "PGMCameraKit"
-s.version          = "0.1.7"
+s.version          = "0.1.8"
 s.summary          = "Camera library to record video (inc pause and resume features), compress video and fully customize the camera."
 s.description      = <<-DESC
 Swift library to provide all the configurations you need to create a camera view: start / pause / resume / stop recording, video compression, max video duration threshold, it follows camera orientation change, front and back camera, flash modes, video / still image modes, output quality, etc...
